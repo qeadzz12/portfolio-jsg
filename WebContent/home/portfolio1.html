@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>포폴1</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
+
+<!-- Favicons -->
+<link href="img/favicon.png " rel="icon ">
+<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+<!-- Bootstrap CSS File -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet ">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="lib/animate/animate.min.css" rel="stylesheet">
+<link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+	<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll" href="index.html">jsg's Portfolio</a>
+		</div>
+	</nav>
+
+	<div></div>
+
+	<section id="about" class="about-mf sect-pt4 route">
+		<div class="Projects_modal-body__CKpMl modal-body">
+			<div id="readme" class="md" data-path="README.md">
+				<article class="markdown-body entry-content container-lg">
+					<div class="markdown-heading">
+						<h1 class="heading-element">자동차 극장 예매</h1>
+					</div>
+					<div class="markdown-heading">
+						<h2 class="heading-element">🔗프로젝트 URL</h2>
+					</div>
+					<p>
+						<a href="http://c6d2305t2.itwillbs.com/team2">http://c6d2305t2.itwillbs.com/team2</a>
+					</p>
+					<p>
+						<a href="https://github.com/qeadzz12/itwillbs_project1">https://github.com/qeadzz12/itwillbs_project1</a>
+					</p>
+					<br>
+					<div>
+						<h2>요약</h2>
+					</div>
+					<p>
+						<strong>JSP로 구현한 자동차 극장 예매를 위한 사이트</strong>입니다.
+					</p>
+					<p>시중에 자동차 극장을 위한 예매 사이트가 없어서 불편하다는 팀원의 의견에서 아이디어를 얻어 개발하였습니다.</p>
+					<p>스프링 프레임 워크를 배우기전 JSP를 사용해서 직접 MVC구조와 DB연결등을 수동으로 구현 힘들었지만 좋은 공부가 되었습니다.</p>
+					<p>처음 해보는 팀 프로젝트라 팀원과의 소통이나 배포시 생길 수 있는 여러 문제를 경험했습니다.</p>
+					<p>외부 API를 사용해서 E-Mail, 인증 카카오 로그인등 다양한 경험을 해볼 수 있었습니다.</p>
+					<div>
+						<h4>* 주요 기능</h4>
+					</div>
+					<ul>
+						<li>영화예매, 취소, 결제</li>
+						<li>회원가입, 로그인, 인증, 암호화</li>
+						<li>공지사항, 회원정보 등 각종 게시판</li>
+					</ul>
+					<div>
+						<h4>* 내가 한일</h4>
+					</div>
+					<ul>
+						<li>회원가입, 로그인(일반로그인, 카카오 로그인), 인증(이메일), 비밀번호 암호화(sha-256)</li>
+						<li>회원정보 게시판, 결제구현 (rest api), CSS 조율</li>
+					</ul>
+
+
+					<br>
+					<div>
+						<h2>❓ 제작 배경</h2>
+					</div>
+					<p>팀원들과 아이디어 회의를 하던중 자동차 극장을 예매하고 싶었는데 그런 사이트가 없다는 의견을 듣고 시작하게 된 프로젝트입니다. 자동차 극장과 관련된 사이트 들은 있었지만 주로 홍보나 다른 이벤트 관련 문의만 가능한 사이트들 뿐이라 직접 예매 할 수 있는 사이트를 간결하고 사용하기 좋게 개발해 보기로 하였습니다.</p>
+					<br>
+					<div>
+						<h2>🧠 배운점</h2>
+					</div>
+					<p>다들 처음 하는 프로젝트라 실수도 많고 마찰도 많았지만 배운 것 또한 많았습니다. </p>
+					<p>한편, 인증의 구현을 위해 Supabase를 처음으로 사용해보며 Firebase와 비교해볼 수 있었습니다. 이는 Firebase에 비해 SDK와 콘솔 모두 조금 더 직관적이라는 느낌을 받았고, 무엇보다 네이버나 카카오와 같이 국내 기업에 기반한 소셜 인증도 제공했기에 개인적으로는 Firebase보다 사용 경험이 더 좋았습니다. 또한, Vercel의 무료 PostgreSQL도 이번 기회에 처음 사용해봤는데, Raw SQL을 지원하는 무료 PostgreSQL 서비스가 달리 없었기에 굉장히 귀한 서비스라는 생각이 들었고, 덕분에 그동안 ORM에 가려져 있던 Raw SQL을 작성해보는 연습도 많이 해볼 수 있었습니다.</p>
+					<p>마지막으로, 지원이 중단된 Recoil을 대신하기 위해 Zustand라고 하는 새로운 전역 상태 관리 라이브러리를 사용해보는 계기도 되었습니다. 이 또한 문서만 읽으면 금방 사용법을 익힐 수 있었는데, Recoil과 다르게 Provider 컴포넌트가 따로 필요 없고 상태 업데이트를 위한 커스텀 함수를 직접 정의하여 사용할 수 있어서 개인적으로는 훨씬 더 사용성이 좋았습니다.</p>
+					<br>
+
+
+
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+	<div id="preloader"></div>
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/popper/popper.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/counterup/jquery.waypoints.min.js"></script>
+	<script src="lib/counterup/jquery.counterup.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+	<script src="lib/lightbox/js/lightbox.min.js"></script>
+	<script src="lib/typed/typed.min.js"></script>
+	<!-- Contact Form JavaScript File -->
+	<script src="contactform/contactform.js"></script>
+
+	<!-- Template Main Javascript File -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
