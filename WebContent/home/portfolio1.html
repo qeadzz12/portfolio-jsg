@@ -27,11 +27,11 @@
 </head>
 
 <body id="page-top">
-	<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand js-scroll" href="index.html">jsg's Portfolio</a>
-		</div>
-	</nav>
+	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="index.html#work"><h2>⬅️뒤로</h2></a>
+        </div>
+    </nav>
 
 	<div></div>
 
@@ -46,52 +46,80 @@
 						<h2 class="heading-element">🔗프로젝트 URL</h2>
 					</div>
 					<p>
-						<a href="http://c6d2305t2.itwillbs.com/team2">http://c6d2305t2.itwillbs.com/team2</a>
+						<a href="http://c6d2305t2.itwillbs.com/team2" style="color: blue">🔗프로젝트 사이트</a>
 					</p>
 					<p>
-						<a href="https://github.com/qeadzz12/itwillbs_project1">https://github.com/qeadzz12/itwillbs_project1</a>
+						<a href="https://github.com/qeadzz12/itwillbs_project1" style="color: blue">🔗프로젝트 깃허브, 요구사항 명세서, ERD</a>
 					</p>
 					<br>
-					<div>
-						<h2>요약</h2>
-					</div>
-					<p>
-						<strong>JSP로 구현한 자동차 극장 예매를 위한 사이트</strong>입니다.
-					</p>
-					<p>시중에 자동차 극장을 위한 예매 사이트가 없어서 불편하다는 팀원의 의견에서 아이디어를 얻어 개발하였습니다.</p>
-					<p>스프링 프레임 워크를 배우기전 JSP를 사용해서 직접 MVC구조와 DB연결등을 수동으로 구현 힘들었지만 좋은 공부가 되었습니다.</p>
-					<p>처음 해보는 팀 프로젝트라 팀원과의 소통이나 배포시 생길 수 있는 여러 문제를 경험했습니다.</p>
-					<p>외부 API를 사용해서 E-Mail, 인증 카카오 로그인등 다양한 경험을 해볼 수 있었습니다.</p>
-					<div>
-						<h4>* 주요 기능</h4>
-					</div>
-					<ul>
-						<li>영화예매, 취소, 결제</li>
-						<li>회원가입, 로그인, 인증, 암호화</li>
-						<li>공지사항, 회원정보 등 각종 게시판</li>
-					</ul>
-					<div>
-						<h4>* 내가 한일</h4>
-					</div>
-					<ul>
-						<li>회원가입, 로그인(일반로그인, 카카오 로그인), 인증(이메일), 비밀번호 암호화(sha-256)</li>
-						<li>회원정보 게시판, 결제구현 (rest api), CSS 조율</li>
-					</ul>
+					<h2>프로젝트 개요</h2>
+    <p><strong>프로젝트 내용:</strong> JSP로 구현한 자동차 극장 예매 사이트</p>
+    <p><strong>아이디어 배경:</strong> 자동차 극장을 위한 예매 사이트가 없어 불편하다는 팀원의 의견에서 착안</p>
 
+    <h2>기술적 배움</h2>
+    <ul>
+        <li><strong>MVC 구조 및 DB 연결:</strong>
+            <ul>
+                <li>스프링 프레임워크 없이 JSP를 사용해 수동으로 MVC 구조를 구현</li>
+                <li>데이터베이스 연결 및 관리의 어려움을 경험하며 실력을 향상시킴</li>
+            </ul>
+        </li>
+        <li><strong>외부 API 활용:</strong>
+            <ul>
+                <li>E-Mail 인증, 카카오 로그인 등 외부 API를 사용해 다양한 기능을 구현</li>
+            </ul>
+        </li>
+        <li><strong>보안:</strong>
+            <ul>
+                <li>비밀번호 암호화 (SHA-256) 등을 통해 보안의 중요성을 체득</li>
+            </ul>
+        </li>
+    </ul>
 
-					<br>
-					<div>
-						<h2>❓ 제작 배경</h2>
-					</div>
-					<p>팀원들과 아이디어 회의를 하던중 자동차 극장을 예매하고 싶었는데 그런 사이트가 없다는 의견을 듣고 시작하게 된 프로젝트입니다. 자동차 극장과 관련된 사이트 들은 있었지만 주로 홍보나 다른 이벤트 관련 문의만 가능한 사이트들 뿐이라 직접 예매 할 수 있는 사이트를 간결하고 사용하기 좋게 개발해 보기로 하였습니다.</p>
-					<br>
-					<div>
-						<h2>🧠 배운점</h2>
-					</div>
-					<p>다들 처음 하는 프로젝트라 실수도 많고 마찰도 많았지만 배운 것 또한 많았습니다. </p>
-					<p>한편, 인증의 구현을 위해 Supabase를 처음으로 사용해보며 Firebase와 비교해볼 수 있었습니다. 이는 Firebase에 비해 SDK와 콘솔 모두 조금 더 직관적이라는 느낌을 받았고, 무엇보다 네이버나 카카오와 같이 국내 기업에 기반한 소셜 인증도 제공했기에 개인적으로는 Firebase보다 사용 경험이 더 좋았습니다. 또한, Vercel의 무료 PostgreSQL도 이번 기회에 처음 사용해봤는데, Raw SQL을 지원하는 무료 PostgreSQL 서비스가 달리 없었기에 굉장히 귀한 서비스라는 생각이 들었고, 덕분에 그동안 ORM에 가려져 있던 Raw SQL을 작성해보는 연습도 많이 해볼 수 있었습니다.</p>
-					<p>마지막으로, 지원이 중단된 Recoil을 대신하기 위해 Zustand라고 하는 새로운 전역 상태 관리 라이브러리를 사용해보는 계기도 되었습니다. 이 또한 문서만 읽으면 금방 사용법을 익힐 수 있었는데, Recoil과 다르게 Provider 컴포넌트가 따로 필요 없고 상태 업데이트를 위한 커스텀 함수를 직접 정의하여 사용할 수 있어서 개인적으로는 훨씬 더 사용성이 좋았습니다.</p>
-					<br>
+    <h2>협업 및 프로젝트 관리</h2>
+    <ul>
+        <li><strong>팀 소통의 중요성:</strong>
+            <ul>
+                <li>프로젝트 초기에 디자인에 대한 명확한 의사소통 부족으로 서로 다른 디자인이 만들어짐</li>
+                <li>이를 통일성 있게 수정하면서 소통의 중요성을 실감</li>
+            </ul>
+        </li>
+        <li><strong>배포 과정의 문제 해결:</strong>
+            <ul>
+                <li>배포 시 발생한 print 문 미제거 및 자원 해제 누락 불필요한 고화질 이미지 사용 등의 문제로 서버가 멈추는 오류를 해결하면서 실무 경험을 쌓음</li>
+            </ul>
+        </li>
+        <li><strong>협력의 중요성:</strong>
+            <ul>
+                <li>내 일만 열심히 하는 것이 다가 아니라, 함께 협동하는 것이 중요하다는 것을 깨달음</li>
+                <li>내가 맡은 파트 외에도 다른 팀원의 일을 적극 도와주며 협력의 가치를 배움</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>주요 기능 및 개인 기여</h2>
+    <ul>
+        <li><strong>주요 기능:</strong>
+            <ul>
+                <li>영화 예매, 취소, 결제</li>
+                <li>회원가입, 로그인, 인증, 암호화</li>
+                <li>공지사항, 회원정보 등 각종 게시판</li>
+            </ul>
+        </li>
+        <li><strong>개인 기여:</strong>
+            <ul>
+                <li>회원가입 및 로그인(일반 및 카카오 로그인)</li>
+                <li>이메일 인증 및 비밀번호 암호화(SHA-256)</li>
+                <li>회원정보 게시판, 결제 구현 (REST API)</li>
+                <li>CSS 조율 및 UI 개선</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>총평</h2>
+    <p>이번 프로젝트를 통해 기술적 능력을 향상시키고, 팀워크와 프로젝트 관리의 중요성을 깊이 깨달았습니다. 
+    	첫 팀 프로젝트라 많은 도전과 경험이 있었지만, 그 과정에서 많은 것을 배우고 성장할 수 있었습니다.
+    	<strong>무엇보다 팀 프로젝트는 내 일만 다 했다고 책임이 없는게 아니고 모두 함께 끝까지 가야 완성된다는 것을 느겼습니다.</strong></p>
 
 
 
